@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="EN">
+	<head>
+		<meta charset="UTF-8">
+		<title>Importer Accounts</title>
+	</head>
+	<body>
+		<script>
+        class HelloWorld extends HTMLElement {
+            connectedCallback () {
+                window.requestAnimationFrame(() => {
+                    this.innerHTML = '<div>Hello World!</div>'
+                })
+            }
+        }
+        
+        customElements.define('hello-world', HelloWorld);</script>
+
+		<input type="datetime-local" />
+		<hello-world> </hello-world>
+	</body>
+</html>
